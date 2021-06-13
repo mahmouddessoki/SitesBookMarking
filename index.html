@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+        
+    </head>
+
+
+    <body>
+        <div class="container ">
+            <h1 class="BookmarkTitle pl-3 mb-5 mt-4">Bookmarker</h1>
+        <div class="bookmarkFormContainer border border-dark border-right-0 border-left-0 p-4">
+            <div class="bookmark p-5 text-center">
+                <h2 class="mb-4 formTitle">Bookmark your favorite sites</h2>
+                <div class="bookmarkingForm">
+                    <div class="form-group">
+                        <label for="siteName">Site Name</label>
+                        <input type="text" class="form-control" placeholder="Bookmark Name" id="sName">
+                    </div>
+                    
+                    <div class="forValidation text-center mb-3" id="validate1">
+                        Name is required
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="siteName">Site URL</label>
+                        <input type="text" class="form-control" placeholder="Website URL" id="sURL">
+                    </div>
+
+                    <div class="forValidation text-center mb-3" id="validate2">
+                        SiteURL field is required
+                    </div>
+
+                    <button class="btn btn-primary shadow-none" onclick="addSite()">Submit</button>
+                </div>
+
+        
+        
+            </div>
+           
+            <div class="fordisplaySiteInfo"  id="mySite">
+
+            </div>
+            
+        </div>
+
+        
+
+        <footer class="pl-3 mt-4">© 2019 Bookmarker Inc.</footer>
+        </div>
+        
+       
+
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
